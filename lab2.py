@@ -25,6 +25,7 @@ def calc_average(x):
     average = total/length
     print("calc_average")
     print("average temp = " +str(average))
+    return average 
 def sort_temperature(x):
     print("sort_temperature")
     sorted_list = sorted(x)
@@ -42,7 +43,7 @@ def calc_median_temperature(x):
         mid = length//2 
         median = (sorted_list[mid])
     print("median = " +str(median))
-
+    return median
 def find_min_max(x):
     print("find_min_max")
     return[min(x),max(x)]
